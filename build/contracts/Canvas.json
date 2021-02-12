@@ -1,0 +1,205 @@
+{
+  "contractName": "Canvas",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.1+commit.df193b15\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/sand/projects/ror/contracts/CanvasERC721.sol\":\"Canvas\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/sand/projects/ror/contract-utils/introspection/ERC165.sol\":{\"keccak256\":\"0x1fb127f5cce20e5ede3e2cea4f73679ee58b11eaf58cb3f372ae304821229d83\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://450553b106e3e3207812ae58eb25f26de4a07f5a4657715d6fbd9c92ae23c1ca\",\"dweb:/ipfs/QmT5FhKDrL8iaCCkcLhrz4Skb3Z8rsQ9QpXusbvWALjMGf\"]},\"/home/sand/projects/ror/contract-utils/introspection/IERC165.sol\":{\"keccak256\":\"0xa28007762d9da9db878dd421960c8cb9a10471f47ab5c1b3309bfe48e9e79ff4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://796ab6e88af7bf0e78def0f059310c903af6a312b565344e0ff524a0f26e81c6\",\"dweb:/ipfs/QmcsVgLgzWdor3UnAztUkXKNGcysm1MPneWksF72AvnwBx\"]},\"/home/sand/projects/ror/contract-utils/token/ERC721/ERC721.sol\":{\"keccak256\":\"0x06621e66d02d32cd086610e9a3392b2b26277213d4b5a6ad25b92b7473925817\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d1f0f7d81de299dbb23b0a760a11e817af920594daf1387e608852c24036d78b\",\"dweb:/ipfs/QmQeWxGeaTLgkYKdjWeMo8epXAF9MSPcHHNRHbsxfpBWUi\"]},\"/home/sand/projects/ror/contract-utils/token/ERC721/IERC721.sol\":{\"keccak256\":\"0xe75db2fa62af4f543d39e1d718f77b5091aaf032988329e48839ce3410996fde\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9ab14ad99b5a6cacc0a738eade19f4603a0be59bd943f7ff9d1b553716ef9fe1\",\"dweb:/ipfs/QmcDS45TqG1DaaDbM9khBPV3FU2qi3ztgVGZWF133qujLd\"]},\"/home/sand/projects/ror/contract-utils/token/ERC721/IERC721Enumerable.sol\":{\"keccak256\":\"0xb963a99b5eb875a72b388a5e776ed7a748e4e8244137eee6b6b3734bd9f299b7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9439cce311013f48549451ac7a148c74ee67d5572617f340e11c8a1baea402ae\",\"dweb:/ipfs/QmQpH3qXdHKtkVb4hNhiJgaPJUXPYUJRPuBePoNkJAEbH2\"]},\"/home/sand/projects/ror/contract-utils/token/ERC721/IERC721Metadata.sol\":{\"keccak256\":\"0xed7e5a97848069b11b7199311bcb4b1f3c412c9237337703e752afb0b9970ddf\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a78a04467c0b31ef585c848d600c655f3f9ef99f39284b878c881b2df6456478\",\"dweb:/ipfs/QmdufYhAB54DCUKkreBcqugy6S3ofGdfaws7xKnP4hAD7Z\"]},\"/home/sand/projects/ror/contract-utils/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0x96877bb2eb8ca360e949ee1bd77b47a14e92e42f79897c350f088f87a3c231d4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://48593d699a4ef6b5bd2efb20d37320e69303fd27d4b59a2b6b8a8e563e608456\",\"dweb:/ipfs/QmdAPS8uLrzPJEeFZyJVkwTtaL3KB9jo9wJm1UcoJP55wT\"]},\"/home/sand/projects/ror/contract-utils/utils/Address.sol\":{\"keccak256\":\"0x069b2631bb5b5193a58ccf7a06266c7361bd2c20095667af4402817605627f45\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6a4c96fafff76deda5697c3c5c98cade6e6e1b178254544c106bf360c079ce4e\",\"dweb:/ipfs/QmXmxubE3jnatFgZuN8ay1VV6hZ8WRmhvUjNpeVjki15HX\"]},\"/home/sand/projects/ror/contract-utils/utils/Context.sol\":{\"keccak256\":\"0xfc80c9f9d5f508ca3ec909b40ead8e29ba7c254f08c496139057a55d2d63266c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://626556465ae4863c9f549b50c310b11d040226a8f48a2167fbbd26ac1b170617\",\"dweb:/ipfs/QmUceEAKAYAJZTrzNN4imuzJw1pVug5dBQKyod7t1z24t8\"]},\"/home/sand/projects/ror/contract-utils/utils/EnumerableMap.sol\":{\"keccak256\":\"0x02a4ad99bf3dc836c9aca88b672ef9cae789ce0d7f3f926a7de66809e5cd4a7f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8bf64c88dcb2ec42bc40ab50805e442bc16af6711dddce01fe8d3d1d373092ab\",\"dweb:/ipfs/Qma1kbtbin9Yn4tzXua1J9BmLHU9a9KQcBbFz82Hvk7rs3\"]},\"/home/sand/projects/ror/contract-utils/utils/EnumerableSet.sol\":{\"keccak256\":\"0x71e0d1cc75b67306382e055b789b6d3ffe34a9e2e55380d3c9895a36a42229e1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ea28aa69470f0f5bb38095c59d2d68db03fc52faa5640de4486a188ecc168870\",\"dweb:/ipfs/QmdwRX791f2gdkxLfzQLcyx3ZLvSjGd2wdX8gXFi8sH2uW\"]},\"/home/sand/projects/ror/contract-utils/utils/Strings.sol\":{\"keccak256\":\"0x456e9b3a2bfe189b5249857f624f4139e59331db518483b456c4e587a20552e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1123c9545decc48a011370ebab4bf53dda98524fa21f9498e68851ba8f0ffc0f\",\"dweb:/ipfs/QmUpgMg8EFDnv87ePKUjXxXpJT3qwHRj9VDNSnRxu7T9sy\"]},\"/home/sand/projects/ror/contracts/CanvasERC721.sol\":{\"keccak256\":\"0xb22669b819fa8d39be8624846cd2ea827bd9a6176fb97edc555980399f3faa33\",\"urls\":[\"bzz-raw://659155a628c6f0e163a4c58c98a9b1a27d8bc98d81e85cd30f6dd1594b5a2917\",\"dweb:/ipfs/Qmf2rFCRMm6tTqtEngwkG7agC6WGrZMGj1nYN8yjPnWyrG\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220f92cc1560008219c03954ed6c9693ca739b477c521b9c9132c135af79956d31a64736f6c63430008010033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220f92cc1560008219c03954ed6c9693ca739b477c521b9c9132c135af79956d31a64736f6c63430008010033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "79:21:12:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "79:21:12:-:0;;;;;",
+  "source": "pragma solidity >=0.8.1;\n\nimport \"../contract-utils/token/ERC721/ERC721.sol\";\n\ncontract Canvas {\n\t\n}",
+  "sourcePath": "/home/sand/projects/ror/contracts/CanvasERC721.sol",
+  "ast": {
+    "absolutePath": "/home/sand/projects/ror/contracts/CanvasERC721.sol",
+    "exportedSymbols": {
+      "Address": [
+        1502
+      ],
+      "Canvas": [
+        2827
+      ],
+      "Context": [
+        1525
+      ],
+      "ERC165": [
+        56
+      ],
+      "ERC721": [
+        1014
+      ],
+      "EnumerableMap": [
+        2105
+      ],
+      "EnumerableSet": [
+        2620
+      ],
+      "IERC165": [
+        68
+      ],
+      "IERC721": [
+        1130
+      ],
+      "IERC721Enumerable": [
+        1161
+      ],
+      "IERC721Metadata": [
+        1188
+      ],
+      "IERC721Receiver": [
+        1206
+      ],
+      "Strings": [
+        2823
+      ]
+    },
+    "id": 2828,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2825,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:12"
+      },
+      {
+        "absolutePath": "/home/sand/projects/ror/contract-utils/token/ERC721/ERC721.sol",
+        "file": "../contract-utils/token/ERC721/ERC721.sol",
+        "id": 2826,
+        "nodeType": "ImportDirective",
+        "scope": 2828,
+        "sourceUnit": 1015,
+        "src": "26:51:12",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2827,
+        "linearizedBaseContracts": [
+          2827
+        ],
+        "name": "Canvas",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 2828,
+        "src": "79:21:12"
+      }
+    ],
+    "src": "0:100:12"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/sand/projects/ror/contracts/CanvasERC721.sol",
+    "exportedSymbols": {
+      "Address": [
+        1502
+      ],
+      "Canvas": [
+        2827
+      ],
+      "Context": [
+        1525
+      ],
+      "ERC165": [
+        56
+      ],
+      "ERC721": [
+        1014
+      ],
+      "EnumerableMap": [
+        2105
+      ],
+      "EnumerableSet": [
+        2620
+      ],
+      "IERC165": [
+        68
+      ],
+      "IERC721": [
+        1130
+      ],
+      "IERC721Enumerable": [
+        1161
+      ],
+      "IERC721Metadata": [
+        1188
+      ],
+      "IERC721Receiver": [
+        1206
+      ],
+      "Strings": [
+        2823
+      ]
+    },
+    "id": 2828,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2825,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:12"
+      },
+      {
+        "absolutePath": "/home/sand/projects/ror/contract-utils/token/ERC721/ERC721.sol",
+        "file": "../contract-utils/token/ERC721/ERC721.sol",
+        "id": 2826,
+        "nodeType": "ImportDirective",
+        "scope": 2828,
+        "sourceUnit": 1015,
+        "src": "26:51:12",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2827,
+        "linearizedBaseContracts": [
+          2827
+        ],
+        "name": "Canvas",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 2828,
+        "src": "79:21:12"
+      }
+    ],
+    "src": "0:100:12"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.1+commit.df193b15.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-02-12T04:45:50.337Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
