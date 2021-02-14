@@ -1,2 +1,62 @@
 https://www.trufflesuite.com/boxes/react
 
+
+
+
+    Run the unbox command via npx and skip to step 3. This will install all necessary dependencies. A Create-React-App is generated in the client directory.
+
+    npx truffle unbox react
+
+    Alternatively, you can install Truffle globally and run the unbox command.
+
+    npm install -g truffle
+    truffle unbox react
+
+    Run the development console.
+
+    truffle develop
+
+    Compile and migrate the smart contracts. Note inside the development console we don't preface commands with truffle.
+
+    compile
+    migrate
+
+    In the client directory, we run the React app. Smart contract changes must be manually recompiled and migrated.
+
+    // in another terminal (i.e. not in the truffle develop prompt)
+    cd client
+    npm run start
+
+    Truffle can run tests written in Solidity or JavaScript against your smart contracts. Note the command varies slightly if you're in or outside of the development console.
+
+    // inside the development console.
+    test
+
+    // outside the development console..
+    truffle test
+
+    Jest is included for testing React components. Compile your contracts before running Jest, or you may receive some file not found errors.
+
+    // ensure you are inside the client directory when running this
+    npm run test
+
+    To build the application for production, use the build script. A production build will be in the client/build folder.
+
+    // ensure you are inside the client directory when running this
+    npm run build
+
+FAQ
+
+    How do I use this with the Ganache-CLI?
+
+    It's as easy as modifying the config file! Check out our documentation on adding network configurations. Depending on the port you're using, you'll also need to update line 29 of client/src/utils/getWeb3.js.
+
+    Where is my production build?
+
+    The production build will be in the client/build folder after running npm run build in the client folder.
+
+    Where can I find more documentation?
+
+    This box is a marriage of Truffle and a React setup created with create-react-app. Either one would be a great place to start!
+
+
