@@ -1,0 +1,8 @@
+display total supply CHECK
+display list of all coins CHECK
+text entry field to check if DNA is mintable CHECK
+display next valid mintable DNA 
+mint button to mint next valid 
+text entry field for custom DNA
+mutate utility
+rename utility
