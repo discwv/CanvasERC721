@@ -1,0 +1,45 @@
+V1 with mappings and whatnot
+
+ Deploying 'CanvasERC721'
+   ------------------------
+   > transaction hash:    0xbab43e40b18e138431e40e77a0da6cb734b2ab917afe3b1d2789df5a2ded0790
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xD833215cBcc3f914bD1C9ece3EE7BF8B14f841bb
+   > block number:        6
+   > block timestamp:     1614040456
+   > account:             0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1
+   > balance:             98.91818564
+   > gas used:            3478318 (0x35132e)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.06956636 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.06956636 ETH
+
+
+
+V2 with the struct and a single map 
+
+ Replacing 'CanvasERC721'
+   ------------------------
+   > transaction hash:    0xf802a980908df2dc4d4a601a450c622f6ffb9e9a51f2b0a5cd498ff984d49371
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xC89Ce4735882C9F0f0FE26686c53074E09B0D550
+   > block number:        5
+   > block timestamp:     1614053994
+   > account:             0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1
+   > balance:             99.91896228
+   > gas used:            3663136 (0x37e520)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07326272 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.07326272 ETH

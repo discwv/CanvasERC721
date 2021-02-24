@@ -60,3 +60,38 @@ FAQ
     This box is a marriage of Truffle and a React setup created with create-react-app. Either one would be a great place to start!
 
 
+
+
+
+
+
+? Proceed anyway? Yes
+✔ Preparing to download box
+✔ Downloading
+LICENSE already exists in this directory...
+? Overwrite LICENSE? No
+client already exists in this directory...
+? Overwrite client? Yes
+contracts already exists in this directory...
+? Overwrite contracts? No
+migrations already exists in this directory...
+? Overwrite migrations? No
+test already exists in this directory...
+? Overwrite test? No
+truffle-config.js already exists in this directory...
+? Overwrite truffle-config.js? No
+
+
+
+
+npm install @metamask/detect-provider   
+
+
+
+https://docs.nethereum.com/en/latest/ethereum-and-clients/ganache-cli/
+
+ganache-cli -q -d --db ./myEthChain --hostname 0.0.0.0 --networkId 1613716070182
+
+
+
+ SKIP: Run StyleGan2 From Command Line
